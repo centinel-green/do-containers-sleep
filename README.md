@@ -1,2 +1,2 @@
 Goals:
-- Use [ttyd](https://github.com/tsl0922/ttyd) & [btop++](https://github.com/aristocratos/btop) in a alpine linux container
+- using caddy and sablier to build a version of caddy that wakes up the webapp as and when requests are recieved
