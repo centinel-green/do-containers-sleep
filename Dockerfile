@@ -1,6 +1,6 @@
 FROM caddy:builder AS builder
 
-# Inject the Sablier plugin into Caddy
+# caddy doesn't come with the sablier plugin by default, need to build it
 RUN xcaddy build \
     --with github.com/acouvreur/sablier/plugins/caddy
 
